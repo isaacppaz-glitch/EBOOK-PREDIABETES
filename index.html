@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Reseteo Prediabetes: Tu plan de acción de 7 días para normalizar tu glucosa naturalmente. Acceso inmediato + Garantía 30 días.">
+    <title>Reseteo Prediabetes - Plan de Acción de 7 Días</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%);
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
+            position: relative;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+        
+        /* Header con Oferta Especial */
+        .special-offer-banner {
+            background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            animation: pulse 2s infinite;
+            width: 100%;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #00838f 0%, #00acc1 100%);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero .subheadline {
+            font-size: 22px;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        /* Producto Principal */
+        .product-showcase {
+            background: white;
+            padding: 50px 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .product-image {
+            max-width: 100%;
+            width: 100%;
+            margin: 0 auto 40px;
+            padding: 0 10px;
+        }
+        
+        .product-image img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            display: block;
+            margin: 0 auto;
+        }
+        
+        /* Precio */
+        .pricing-box {
+            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+            border: 3px solid #4caf50;
+            border-radius: 15px;
+            padding: 30px 20px;
+            max-width: 600px;
+            margin: 30px auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            width: 100%;
+        }
+        
+        .old-price {
+            font-size: 36px;
+            color: #999;
+            text-decoration: line-through;
+            margin-bottom: 10px;
+        }
+        
+        .new-price-container {
+            background: #4caf50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .new-price-label {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .new-price {
+            font-size: 52px;
+            font-weight: bold;
+        }
+        
+        /* Badges */
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .badge {
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+            max-width: 200px;
+        }
+        
+        .badge-icon {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        
+        .badge-text {
+            font-size: 15px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50 0%, #66bb6a 100%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 20px 50px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 8px 20px rgba(76, 175, 80, 0.4);
+            transition: all 0.3s ease;
+            animation: bounce 2s infinite;
+            text-align: center;
+            width: auto;
+            max-width: 100%;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(76, 175, 80, 0.6);
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        .urgency-text {
+            color: #ff6b35;
+            font-size: 16px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        
+        /* Sección Problema */
+        .problem-section {
+            background: #fff3e0;
+            padding: 50px 20px;
+            width: 100%;
+        }
+        
+        .problem-section h2 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #e65100;
+        }
+        
+        .problem-list {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .problem-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .problem-item::before {
+            content: "⚠️";
+            font-size: 25px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        
+        /* Contenido del Paquete */
+        .package-content {
+            background: white;
+            padding: 50px 20px;
+            width: 100%;
+        }
+        
+        .package-content h2 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #00838f;
+        }
+        
+        .ebook-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .ebook-card {
+            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .ebook-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .ebook-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #00838f;
+        }
+        
+        .ebook-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .ebook-card li {
+            padding: 7px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .ebook-card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .bonus-badge {
+            background: #ff6b35;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        
+        /* Beneficios */
+        .benefits-section {
+            background: linear-gradient(135deg, #e8f5e9 0%, #ffffff 100%);
+            padding: 50px 20px;
+            width: 100%;
+        }
+        
+        .benefits-section h2 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2e7d32;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 45px;
+            margin-bottom: 12px;
+        }
+        
+        .benefit-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #2e7d32;
+        }
+        
+        /* Garantía */
+        .guarantee-section {
+            background: #fff9c4;
+            padding: 50px 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .guarantee-box {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            padding: 35px 25px;
+            border-radius: 15px;
+            border: 3px dashed #fbc02d;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .guarantee-icon {
+            font-size: 70px;
+            margin-bottom: 15px;
+        }
+        
+        .guarantee-box h2 {
+            font-size: 28px;
+            color: #f57f17;
+            margin-bottom: 15px;
+        }
+        
+        .guarantee-box p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #666;
+        }
+        
+        /* FAQs */
+        .faq-section {
+            background: white;
+            padding: 50px 20px;
+            width: 100%;
+        }
+        
+        .faq-section h2 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #00838f;
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: #f5f5f5;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        
+        .faq-question {
+            background: #00838f;
+            color: white;
+            padding: 18px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            padding: 18px;
+            display: none;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, #00838f 0%, #00acc1 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .final-cta h2 {
+            font-size: 36px;
+            margin-bottom: 25px;
+        }
+        
+        .final-cta p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #263238;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+            font-size: 14px;
+            width: 100%;
+        }
+        
+        /* Countdown Timer */
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 25px 0;
+            flex-wrap: wrap;
+        }
+        
+        .countdown-item {
+            background: rgba(0,0,0,0.1);
+            padding: 12px 20px;
+            border-radius: 10px;
+            min-width: 70px;
+        }
+        
+        .countdown-number {
+            font-size: 32px;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .countdown-label {
+            font-size: 13px;
+            display: block;
+        }
+        
+        /* Responsive para Móvil */
+        @media (max-width: 768px) {
+            .special-offer-banner {
+                font-size: 16px;
+                padding: 12px 8px;
+                line-height: 1.4;
+            }
+            
+            .hero {
+                padding: 35px 15px;
+            }
+            
+            .hero h1 {
+                font-size: 26px;
+                line-height: 1.3;
+            }
+            
+            .hero .subheadline {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+            
+            .product-showcase {
+                padding: 35px 15px;
+            }
+            
+            .product-image {
+                padding: 0 5px;
+            }
+            
+            .pricing-box {
+                padding: 20px 15px;
+                margin: 25px 10px;
+            }
+            
+            .old-price {
+                font-size: 30px;
+            }
+            
+            .new-price {
+                font-size: 44px;
+            }
+            
+            .new-price-label {
+                font-size: 16px;
+            }
+            
+            .cta-button {
+                font-size: 18px;
+                padding: 16px 30px;
+                width: 90%;
+                max-width: 320px;
+                display: block;
+                margin: 0 auto;
+            }
+            
+            .urgency-text {
+                font-size: 14px;
+            }
+            
+            .badges {
+                flex-direction: column;
+                gap: 18px;
+            }
+            
+            .badge {
+                max-width: 100%;
+            }
+            
+            .problem-section h2,
+            .package-content h2,
+            .benefits-section h2,
+            .faq-section h2 {
+                font-size: 24px;
+                line-height: 1.3;
+            }
+            
+            .problem-list {
+                padding: 20px 15px;
+            }
+            
+            .problem-item {
+                font-size: 15px;
+                line-height: 1.6;
+            }
+            
+            .ebook-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .ebook-card {
+                padding: 18px;
+            }
+            
+            .ebook-card h3 {
+                font-size: 19px;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .benefit-card {
+                padding: 20px;
+            }
+            
+            .guarantee-box {
+                padding: 25px 18px;
+            }
+            
+            .guarantee-box h2 {
+                font-size: 23px;
+            }
+            
+            .guarantee-box p {
+                font-size: 15px;
+            }
+            
+            .faq-question {
+                font-size: 15px;
+                padding: 15px;
+            }
+            
+            .faq-answer {
+                font-size: 14px;
+                padding: 15px;
+            }
+            
+            .final-cta {
+                padding: 45px 15px;
+            }
+            
+            .final-cta h2 {
+                font-size: 26px;
+            }
+            
+            .final-cta p {
+                font-size: 16px;
+            }
+            
+            .countdown {
+                gap: 10px;
+            }
+            
+            .countdown-item {
+                padding: 10px 15px;
+                min-width: 65px;
+            }
+            
+            .countdown-number {
+                font-size: 26px;
+            }
+            
+            .countdown-label {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Oferta Especial Banner -->
+    <div class="special-offer-banner">
+        ⚡ OFERTA ESPECIAL ⚡ Solo por Tiempo Limitado
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Reseteo Prediabetes</h1>
+            <p class="subheadline">El sistema exacto para normalizar tu glucosa en 7 días sin medicamentos</p>
+        </div>
+    </section>
+    
+    <!-- Producto Principal -->
+    <section class="product-showcase">
+        <div class="container">
+            <div class="product-image">
+                <img src="producto.png" alt="Paquete Reseteo Prediabetes Completo">
+            </div>
+            
+            <!-- Precio -->
+            <div class="pricing-box">
+                <div class="old-price">$67</div>
+                <div class="new-price-container">
+                    <div class="new-price-label">HOY SOLO:</div>
+                    <div class="new-price">$4.97 USD</div>
+                </div>
+                
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">00</span>
+                        <span class="countdown-label">Horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">00</span>
+                        <span class="countdown-label">Minutos</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="seconds">00</span>
+                        <span class="countdown-label">Segundos</span>
+                    </div>
+                </div>
+                
+                <a href="https://pay.hotmart.com/N10424G960026?off=v4rmkxuy" class="cta-button" id="cta-main">OBTENER ACCESO INMEDIATO</a>
+                <p class="urgency-text">⚠️ Solo quedan 47 copias a este precio</p>
+            </div>
+            
+            <!-- Badges -->
+            <div class="badges">
+                <div class="badge">
+                    <div class="badge-icon">⏱️</div>
+                    <div class="badge-text">Acceso Inmediato</div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">🛡️</div>
+                    <div class="badge-text">Garantía 30 Días</div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">🔒</div>
+                    <div class="badge-text">Paquete Seguro</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Problema -->
+    <section class="problem-section">
+        <div class="container">
+            <h2>¿Te Identificas con Esto?</h2>
+            <div class="problem-list">
+                <div class="problem-item">Tu médico te dijo que tienes prediabetes</div>
+                <div class="problem-item">Tienes miedo de desarrollar diabetes tipo 2</div>
+                <div class="problem-item">No sabes qué comer y qué evitar</div>
+                <div class="problem-item">Te sientes abrumado con tanta información contradictoria</div>
+                <div class="problem-item">Has probado dietas que no funcionaron</div>
+                <div class="problem-item">Quieres resultados sin medicamentos</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contenido del Paquete -->
+    <section class="package-content">
+        <div class="container">
+            <h2>🎁 Todo Lo Que Recibes HOY</h2>
+            <div class="ebook-grid">
+                
+                <!-- Ebook Principal -->
+                <div class="ebook-card">
+                    <h3>📘 Reseteo Prediabetes</h3>
+                    <p style="margin-bottom: 15px;"><strong>Tu Plan de Acción de 7 Días</strong></p>
+                    <ul>
+                        <li>El sistema exacto que usé para bajar mi glucosa de 118 a 92 mg/dL</li>
+                        <li>Plan día por día fácil de seguir</li>
+                        <li>Sin necesidad de medicamentos</li>
+                        <li>Estrategias científicamente probadas</li>
+                    </ul>
+                </div>
+                
+                <!-- Bonus 1 -->
+                <div class="ebook-card">
+                    <span class="bonus-badge">BONUS GRATIS</span>
+                    <h3>📗 Plan de Acción Completo de 7 Días</h3>
+                    <ul>
+                        <li>Menús semanales completos</li>
+                        <li>Lista de compras incluida</li>
+                        <li>Recetas para toda la familia</li>
+                        <li>Alimentos accesibles de cualquier supermercado</li>
+                    </ul>
+                </div>
+                
+                <!-- Bonus 2 -->
+                <div class="ebook-card">
+                    <span class="bonus-badge">BONUS GRATIS</span>
+                    <h3>📙 10 Señales de Prediabetes Que Estás Ignorando</h3>
+                    <ul>
+                        <li>Checklist de autoevaluación</li>
+                        <li>Descubre tu nivel de riesgo</li>
+                        <li>Señales tempranas que los médicos buscan</li>
+                        <li>Actúa ANTES de que sea tarde</li>
+                    </ul>
+                </div>
+                
+                <!-- Bonus 3 -->
+                <div class="ebook-card">
+                    <span class="bonus-badge">BONUS GRATIS</span>
+                    <h3>📊 Registro de Glucosa</h3>
+                    <ul>
+                        <li>Plantilla profesional para tracking</li>
+                        <li>Rangos de referencia claros</li>
+                        <li>Tabla para llevar a consultas médicas</li>
+                        <li>Formato imprimible</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Beneficios -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2>💪 Lo Que Vas a Lograr</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">📉</div>
+                    <h3>Normaliza Tu Glucosa</h3>
+                    <p>Reduce tus niveles de azúcar en sangre de forma natural en solo 7 días</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Más Energía</h3>
+                    <p>Elimina la fatiga constante y despierta con vitalidad cada mañana</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🍽️</div>
+                    <h3>Come Rico y Saludable</h3>
+                    <p>Recetas deliciosas que toda tu familia disfrutará</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Previene Diabetes Tipo 2</h3>
+                    <p>Evita complicaciones futuras actuando HOY</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💊</div>
+                    <h3>Sin Medicamentos</h3>
+                    <p>Método 100% natural basado en alimentación y estilo de vida</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏱️</div>
+                    <h3>Resultados Rápidos</h3>
+                    <p>Verás cambios en tus niveles desde la primera semana</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Intermedio -->
+    <section class="product-showcase" style="padding: 40px 20px; background: #f5f5f5;">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 28px; margin-bottom: 25px; color: #00838f;">¡No Dejes Pasar Esta Oportunidad!</h2>
+            <a href="https://pay.hotmart.com/N10424G960026?off=v4rmkxuy" class="cta-button" id="cta-middle">QUIERO MI PAQUETE COMPLETO AHORA</a>
+            <p class="urgency-text">El precio volverá a $67 en las próximas horas</p>
+        </div>
+    </section>
+    
+    <!-- Garantía -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-box">
+                <div class="guarantee-icon">🛡️</div>
+                <h2>Garantía de 30 Días Sin Riesgos</h2>
+                <p>Estoy tan seguro de que este sistema funcionará para ti, que te ofrezco una garantía completa de 30 días.</p>
+                <p style="margin-top: 15px;"><strong>Si por cualquier razón no estás 100% satisfecho, te devuelvo tu dinero. Sin preguntas.</strong></p>
+                <p style="margin-top: 15px; font-size: 15px; color: #999;">Todo el riesgo es mío. Tú solo tienes que decidir si quieres cambiar tu salud o no.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQs -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>❓ Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ¿Cuándo recibo el contenido?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Inmediatamente después de tu compra recibirás un email con acceso a todos los ebooks en formato PDF. Puedes empezar a leer en los próximos 2 minutos.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ¿Necesito experiencia previa?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Para nada. Este plan está diseñado para personas sin conocimientos previos. Todo está explicado paso a paso con un lenguaje simple y claro.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ¿Los alimentos son caros o difíciles de conseguir?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        No. Todos los alimentos del plan son accesibles en cualquier supermercado. Nada de ingredientes raros o costosos. Es comida real para personas reales.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ¿Funciona si ya tengo diabetes tipo 2?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Este programa está específicamente diseñado para prediabetes (glucosa 100-125 mg/dL). Si ya tienes diabetes tipo 2, consulta con tu médico antes de hacer cambios en tu alimentación.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ¿Qué pasa si no funciona para mí?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Tienes 30 días completos para probar el sistema. Si no ves resultados o no estás satisfecho por cualquier razón, te devuelvo el 100% de tu dinero. Sin complicaciones.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ¿Por qué está tan barato?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Esta es una oferta de lanzamiento por tiempo limitado. Quiero que la mayor cantidad de personas puedan acceder a esta información que puede cambiar vidas. El precio normal es $67, pero hoy lo tienes por solo $4.97.
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>🚀 Tu Salud No Puede Esperar</h2>
+            <p>Cada día que pasa sin actuar, tu prediabetes puede empeorar.</p>
+            <p>Hoy tienes la oportunidad de tomar el control por solo $4.97</p>
+            <a href="https://pay.hotmart.com/N10424G960026?off=v4rmkxuy" class="cta-button" id="cta-final" style="background: white; color: #00838f;">SÍ, QUIERO RESETEAR MI PREDIABETES</a>
+            <p style="margin-top: 25px; font-size: 16px;">🔒 Pago seguro | 🛡️ Garantía 30 días | ⏱️ Acceso inmediato</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Reseteo Prediabetes by Isaac Paz Ebook. Todos los derechos reservados.</p>
+            <p style="margin-top: 10px; font-size: 12px;">Este producto es informativo y no reemplaza el consejo médico profesional. Consulta con tu médico antes de hacer cambios en tu dieta o tratamiento.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+        
+        // Countdown Timer (24 horas)
+        function startCountdown() {
+            const end = new Date().getTime() + (24 * 60 * 60 * 1000);
+            
+            const timer = setInterval(() => {
+                const now = new Date().getTime();
+                const distance = end - now;
+                
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+                
+                if (distance < 0) {
+                    clearInterval(timer);
+                    document.getElementById('hours').textContent = '00';
+                    document.getElementById('minutes').textContent = '00';
+                    document.getElementById('seconds').textContent = '00';
+                }
+            }, 1000);
+        }
+        
+        startCountdown();
+    </script>
+    
+</body>
+</html>
